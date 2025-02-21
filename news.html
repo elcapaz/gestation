@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gistnation</title>
+    <link rel="stylesheet" href="news.css">
+    <script defer src="news.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Gist <span>Nation</span></div>
+        <button id="menu-toggle">☰</button>
+        <nav id="nav-menu">
+            <ul class="set1"> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Memes</a></li>
+                <li><a href="#">Comedy</a></li>
+                
+            </ul>
+        </nav>
+
+        <!-- Search Bar -->
+        <input type="text" id="search-bar" placeholder="Search gist...">
+        
+        <!-- Dark Mode Toggle -->
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+
+    <!-- Featured News Section -->
+    <section class="featured">
+        <!-- <div class="featured-news">
+            <img src="https://source.unsplash.com/1000x500/?news" alt="Featured News">
+            <div class="news-content">
+                <h2>Breaking: Major Event Shocks the World</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <h2>Trending Gist</h2>
+        <div class="news-grid" id="news-container">
+            <!-- News Article 1 -->
+            <div class="news-card">
+                <img src="Tinubu.jpg" alt="" class="img22">
+                <h3>Nigeria Ranked 36th Most Corrupt Country in 2024</h3>
+                <p>According to recent reports, Nigeria has been ranked as the 36th most corrupt country in 2024. This highlights ongoing challenges in governance and transparency.</p>
+                <a href="https://newsdigest.ng/nigeria-ranked-36th-most-corrupt-country-in-2024/" target="_blank"></a>
+            </div>
+            <!-- News Article 2 -->
+            <div class="news-card">
+               
+                 <img src="building.jpg" alt="" class="img22">
+                <h3>Nigeria Sends Young Farmers to Morocco for Capacity-Building</h3>
+                <p>The Nigerian government has initiated a program to send young farmers to Morocco for capacity-building, aiming to enhance agricultural productivity and knowledge exchange.</p>
+                <a href="https://www.moroccoworldnews.com/2022/05/45926/nigeria-sends-young-farmers-to-morocco-for-capacity-building/" target="_blank">Read More</a>
+            </div>
+            <!-- News Article 3 -->
+            <div class="news-card">
+                <img src="Tinubu.jpg" alt="" class="img22">
+                <h3>Nigeria to Officially Launch e-Visa on March 1, 2025</h3>
+                <p>Starting March 1, 2025, Nigeria will implement an e-Visa system to streamline the visa application process, making it more accessible for international visitors.</p>
+                <a href="https://visasnews.com/en/nigeria-e-visa-officially-launched-on-march-1-2025/" target="_blank">Read More</a>
+            </div>
+            <!-- News Article 4 -->
+            <div class="news-card">
+                <img src="building.jpg" alt="" class="img22">
+                <h3>Morocco-Nigeria Gas Pipeline Advances Through New Agreements</h3>
+                <p>Recent agreements have been signed to advance the Morocco-Nigeria gas pipeline project, aiming to enhance energy cooperation between the two nations.</p>
+                <a href="https://www.moroccoworldnews.com/2023/06/32513/morocco-nigeria-gas-pipeline-advanced-through-new-agreements-signing/" target="_blank">Read More</a>
+            </div>
+            <!-- News Article 5 -->
+            <div class="news-card">
+                <img src="https://www.moroccoworldnews.com/wp-content/uploads/2023/10/Oil-Gas-Summit.jpg" alt="Oil and Gas Summit">
+                <h3>3rd Oil & Gas Summit to Spotlight Nigeria-Morocco Pipeline</h3>
+                <p>The upcoming 3rd Oil & Gas Summit will focus on the Nigeria-Morocco pipeline and explore local energy potentials, bringing together industry leaders and stakeholders.</p>
+                <a href="https://www.moroccoworldnews.com/2023/10/28597/3rd-oil-amp-gas-summit-to-spotlight-nigeria-morocco-pipeline-local-energy-potential/" target="_blank">Read More</a>
+            </div>
+            <!-- News Article 6 -->
+            <div class="news-card">
+                <img src="https://www.moroccoworldnews.com/wp-content/uploads/2024/01/AFCON-Nigeria-Equatorial-Guinea.jpg" alt="AFCON Nigeria vs Equatorial Guinea">
+                <h3>AFCON: How to Watch Nigeria Against Equatorial Guinea</h3>
+                <p>Details have been released on when and how to watch the upcoming AFCON match between Nigeria and Equatorial Guinea, promising an exciting showdown.</p>
+                <a href="https://www.moroccoworldnews.com/2024/01/24570/afcon-when-how-to-watch-nigeria-against-equatorial-guinea/" target="_blank">Read More</a>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <!-- News Modal -->
+    <div id="news-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="News">
+            <p id="modal-content"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 News Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
