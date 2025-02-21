@@ -44,3 +44,5 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("news-modal").style.display = "none";
     });
 });
+async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5836472706453394"
+     crossorigin="anonymous";>
